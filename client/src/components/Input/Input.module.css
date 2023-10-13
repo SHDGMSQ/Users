@@ -1,0 +1,29 @@
+.input {
+    width: 300px;
+    border: none;
+    border-bottom: 3px solid teal;
+    background: transparent;
+    margin: 10px 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.input:focus, .input:active, .input:hover {
+    outline: none;
+    transform: scale(1.02);
+}
+
+.error {
+    padding-left: 30px;
+    color: red;
+    font-size: 18px;
+}
+
+.inputError {
+    border-bottom: 3px solid red;
+}
+
+.inputError::placeholder {
+    color: red;
+}
+
